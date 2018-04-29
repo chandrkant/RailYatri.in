@@ -1,0 +1,232 @@
+#p-container-sidebar {
+    -webkit-overflow-scrolling: touch;
+    touch-action: manipulation;
+    a {
+    	cursor: pointer;
+    }
+	.sidenav{
+	  background-color:#fff;
+	  height:100%;
+	  /*left:-330px;*/
+	  left: -820px;
+	  overflow-x:hidden;
+	  padding-top:5px;
+	  position:fixed;
+	  top:0;
+	  transition:.5s;
+	  width:0;
+	  z-index:9;
+	}
+	.sidenavR{
+	  background-color:#111;
+	  height:100%;
+	  overflow-x:hidden;
+	  padding-top:60px;
+	  position:fixed;
+	  right:0;
+	  top:0;
+	  transition:.5s;
+	  width:0;
+	  z-index:1;
+	}
+	.sidenav a,.sidenavR a{
+	  color:#818181;
+	  display:block;
+	  /* font-size:25px; */
+	  /* padding:8px 8px 8px 32px; */
+	  text-decoration:none;
+	  transition:.3s;
+	}
+	.sidenav a:hover,.offcanvas a:focus,.sidenavR a:hover,.offcanvas a:focus{color:#f1f1f1;}
+	.sidenav .closebtn,.sidenavR .closebtn{
+	font-size:36px;
+	margin-left:50px;
+	position:absolute;
+	right:10px;
+	top:60px;
+	}
+	.logout-btn {
+	background-color: #ddd;
+	}
+	.top-nav-block a {
+	  font-size: 30px;
+	  color: #fff;
+	  text-decoration: none;
+	}
+	@media screen and (max-height: 450px) {
+	.sidenav,.sidenavR{padding-top:15px;}
+	.sidenav a,.sidenavR a{font-size:18px;}
+	}
+	span {
+	  margin-left: 15px;
+	  color: #404040;
+	  margin-top: 5px;
+	}
+	label {
+	  color: #9e9e9e;
+	  font-weight: normal;
+	  margin-bottom: 15px;
+	}
+
+	#icon span {
+	  font-size: 12px;
+	  margin-left: 0;
+	}
+	.icons-small {
+	  border-bottom: 1px solid #d5d6d9;
+	  padding-bottom: 10px;
+	  padding-top: 10px;
+	}
+	.icons-small img {
+	  width: 30px;
+	  float: left;
+	}
+	.icons-small span {
+	  float: left;
+	}
+	.no-bordr {
+	  border-bottom: 0;
+	}
+	 .icon .img-padng {
+	  padding: 0;
+	  margin-bottom: 15px;
+	}
+	.icon span {
+	  margin-left: 0;
+	}
+	 .icon img {
+	  width: 60px;
+	}
+	#overlay {
+	  width: 100%;
+	  background: rgba(0, 0, 0, 0.4);
+	  display: none;
+	  position: absolute;
+	  top: 0px;
+	  left: 0px;
+	  height: 100%;
+	  z-index:0;
+	}
+	.rm-icons {
+	  text-align: -webkit-center;
+	  padding: 15px 0;
+	  border-bottom: 1px solid #d5d6d9;
+	  border-top: 1px solid #d5d6d9;
+	}
+	.login-tab {
+	  padding-top: 55px;
+	}
+
+	.login-tab .nav-tabs {
+	  border: 0;
+	}
+	.login-tab .nav-tabs>li {
+	  width: 50%;
+	  text-align: center;
+	  background-color: #2196f3;
+	}
+	.login-tab .nav-tabs>li>a {
+	  margin: 0;
+	  border: 0;
+	  color: #fff;
+	}
+	.login-tab .nav-tabs>li.active>a, 
+	.login-tab .nav-tabs>li.active>a:focus, 
+	.login-tab .nav-tabs>li.active>a:hover {
+	  border: 0;
+	  background-color: #2196f3;
+	  color: #fff;
+	  border-bottom: 2px solid #092840;
+	}
+	.login-tab .tab-content {
+	  padding: 15px;
+	}
+	.login-tab .login-pwd {
+	  float: left;
+	  width: 100%;
+	  padding: 0 0 15px 0;
+	}
+	.login-tab .login-pwd a {
+	  color: #2196f3;
+	  font-size: 16px;
+	}
+	.login-tab .login-nw {
+	  padding-top: 15px;
+	}
+	.login-tab .login-nw a {
+	  color: #2196f3;
+	  font-size: 16px;
+	}
+	#signup p {
+	  color: #585858;
+	  margin-top: 15px;
+	  font-size: 16px;
+	}
+	.extg-usr {
+	  color: #585858;
+	  font-size: 16px;
+	  margin-top: 20px;
+	}
+	.user-lgd {
+	  padding: 15px 0;
+	}
+	.usr-lgopt span {
+	  margin: 0 !important;
+	}
+	.usr-logdin {
+		padding: 10px 0;
+	}
+	.usr-logdin span:nth-child(1) {
+		margin: 0;
+	    height: 50px;
+	    width: 50px;
+	    color: #fff;
+	    background: #1d916e;
+	    border-radius: 25px;
+	    padding-top: 12px;
+    	font-size: 20px;
+	}
+	.usr-logdin span:nth-child(2) {
+		margin: 0;
+		padding-top: 16px;
+		text-transform: uppercase;
+	}
+	.usr-sgnup {
+	  color: #2196f3;
+	}
+	.user-lgblock {
+	  float: left;
+	  width: 100%;
+	  padding: 15px 10px 15px;
+	}
+	.user-lgblock .user-ry {
+	  background-color: #1079d7;
+	  width: 30.333333%;
+	  margin-right: 5px;
+	  padding: 5px 0;
+	}
+	.user-lgblock .user-gl {
+	  background-color: #cf4332;
+	  width: 30.333333%;
+	  margin-right: 5px;
+	  padding: 5px 0;
+	}
+	.user-lgblock .user-fb {
+	  background-color: #3c66c4;
+	  padding: 5px 0;
+	}
+	.user-lgblock .user-ry img,
+	.user-lgblock .user-gl img,
+	.user-lgblock .user-fb img {
+	  height: 25px;
+	  width: 25px;
+	  display: inline-block;
+	  max-width: 100%;
+	}
+	.user-lgblock .user-ry span,
+	.user-lgblock .user-gl span,
+	.user-lgblock .user-fb span {
+	  font-size: 11px;
+	  color: #fff !important;
+	}
+}
